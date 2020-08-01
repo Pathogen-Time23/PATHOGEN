@@ -6,7 +6,7 @@
 #The other parameters were chosen through readings of articles that spoke of neural networks used for similar classifications.
 #When this network is actually used commercially, we will carry out a new training using more parameters to increase the effectiveness of the prediction, which at the moment is between 92% to 94% correct.
 
-`import pandas as pd
+```import pandas as pd
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from sklearn.model_selection import GridSearchCV
@@ -73,4 +73,4 @@ classificador.fit(sintomas_previsores,resultado_teste,batch_size=2, epochs=5)
 r_n_covid19 = classificador.to_json()
 with open('IA_PATHOGEN.json','w') as json_file:
     json_file.write(r_n_covid19)
-classificador.save_weights('IA_PATHOGEN.h5')`
+classificador.save_weights('IA_PATHOGEN.h5')```
