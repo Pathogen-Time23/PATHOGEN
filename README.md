@@ -73,4 +73,4 @@ classificador.fit(sintomas_previsores,resultado_teste,batch_size=2, epochs=5)
 r_n_covid19 = classificador.to_json()
 with open('IA_PATHOGEN.json','w') as json_file:
     json_file.write(r_n_covid19)
-classificador.save_weights('IA_PATHOGEN.h5')```
+classificador.save_weights('IA_PATHOGEN.h5')
