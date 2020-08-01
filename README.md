@@ -1,10 +1,10 @@
-# HERE YOU CAN FIND ALL THE PYTHON CODE USED TO CREATE, TRAIN AND IMPROVE THE PATHOGEN's NEURAL NETWORK.
-# The database used was taken from that site: https://data.gov.il/dataset/covid-19/resource/74216e15-f740-4709-adb7-a6fb0955a048, which is the official data site of the government of Israel.
-# As this database did not have other symptoms presented by the people who performed the coronavirus test, only 5 predictive attributes were used.
-# The predictive attributes are: Cough, Fever, Sore Throat, Headache and Shortness of breath.
-# As we didn't have much time to test different parameters, we only studied variation in the amount of neurons used in the hidden layers.
-# The other parameters were chosen through readings of articles that spoke of neural networks used for similar classifications.
-# When this network is actually used commercially, we will carry out a new training using more parameters to increase the effectiveness of the prediction, which at the moment is between 92% to 94% correct.
+#HERE YOU CAN FIND ALL THE PYTHON CODE USED TO CREATE, TRAIN AND IMPROVE THE PATHOGEN's NEURAL NETWORK.
+#The database used was taken from that site: https://data.gov.il/dataset/covid-19/resource/74216e15-f740-4709-adb7-a6fb0955a048, which is the official data site of the government of Israel.
+#As this database did not have other symptoms presented by the people who performed the coronavirus test, only 5 predictive attributes were used.
+#The predictive attributes are: Cough, Fever, Sore Throat, Headache and Shortness of breath.
+#As we didn't have much time to test different parameters, we only studied variation in the amount of neurons used in the hidden layers.
+#The other parameters were chosen through readings of articles that spoke of neural networks used for similar classifications.
+#When this network is actually used commercially, we will carry out a new training using more parameters to increase the effectiveness of the prediction, which at the moment is between 92% to 94% correct.
 
 ```import pandas as pd
 from keras.models import Sequential
